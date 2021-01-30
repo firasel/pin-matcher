@@ -83,6 +83,8 @@ function alertMessageShow(message,color){
                 alertMessageShow('✅ Pin Matched... Secret door is opening for you','green')
                 count=5
                 tryLeft.innerText=''
+                enterInput.value=''
+                generatePin.value=''
             } else {
                 //alert message
                 alertMessageShow('❌ Pin Didn\'t Match, Please try again','red')
